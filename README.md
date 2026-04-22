@@ -49,26 +49,18 @@ Before running the program, the following parameters within 'sub_00_model_***' n
 
 The main file is `**Main_finite_element_PSVTM.m**`.
 
+- **Main_finite_element_PSVTM.m**  
+  Loads the 3-D velocity model.
+
 - **sub_0_finite_element_construct_global_matrix_method.m**  
   Loads the 3-D velocity model.
 
-- **att_model_load.cpp**  
+- **get_3_frequency_dependence_input_parameter.m**  
   Loads the 3-D attenuation model (quality factor Q).
 
-- **source_load.cpp**  
+- **sub_3_2_fullspace_matrix_PSV.m**  
   Reads source information such as earthquake locations.
 
-- **receiver_load.cpp**  
+- **sub_3_2_freesurface_matrix_PSV.m**  
   Reads receiver information such as station locations.
 
-- **raytracing.cpp**  
-  Performs ray tracing along the negative gradient of the traveltime field.
-
-- **read_parafile.cpp**  
-  Reads parameters required for the calculation.
-
-- **eikonal.cpp**  
-  Implements the fast marching algorithm and computes the traveltime t and attenuation operator t*.
-
-- **main.cpp**  
-  Main driver program combining all modules.
