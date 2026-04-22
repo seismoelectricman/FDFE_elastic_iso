@@ -70,16 +70,3 @@ The main source files are located in the folder `Src_Read`.
 
 - **main.cpp**  
   Main driver program combining all modules.
-
-## Important Parameters
-
-When using this package, several parameters in main.cpp may need to be modified depending on your application.
-
-- **usesecond = false**  
-  Determines whether second-order derivatives are used in the fast marching update. Possible values: true or false.
-
-- **usecross = false**  
-  Determines whether cross derivatives are used. It is recommended to keep this parameter set to false.
-
-- **output_ts = true**  
-  Determines whether the traveltime field and the attenuation operator t* field are written to output files.
