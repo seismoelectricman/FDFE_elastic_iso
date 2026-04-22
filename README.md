@@ -4,7 +4,8 @@
 
 **FDFE_elastic_iso** is a software package for computing the propagation of elastic wave in isotropic media using a **frequency domain finite-element method (FDFE) based on variational principles**.
 
-Traditional finite element approaches for simulating the propagation of elastic wave require the weak formulation. In contrast, **FDFE_elastic_iso** models the propagation of the elastic wave in isotropic media in the framework of variational principles. This approach avoids explicit ray tracing and ensures consistent accumulation of attenuation along minimum traveltime paths.
+Traditional finite element approaches for simulating the propagation of elastic wave require the weak formulation. In contrast, **FDFE_elastic_iso** models the propagation of the elastic wave in isotropic media in the framework of variational principles. By constructing an appropriate functional, solving the governing equations becomes equivalent to finding its stationary value under given boundary conditions.
+This approach propose an alternative finite element framwork to simulate the propagation of seismic waves and may could serve as a new tool for wave modeling and full waveform inversion.
 
 This software is designed for studies of **seismic wave simulation and propagation in heterogeneous isotropic media**.
 
