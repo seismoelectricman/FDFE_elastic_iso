@@ -33,19 +33,21 @@ No need to compile.
 
 ## Input Files
 
-Before running the program, the following parameters need be adjusted:
+Before running the program, the following parameters within 'sub_00_model_***' need be adjusted:
 
-| File | Description |
+| Parameters | Description |
 |-------------|--------|
-| Par_file | Parameter file controlling the calculation |
-| velocity3d | 3-D velocity model |
-| attenuation3d | 3-D attenuation model (Qp) |
-| sources | Source location file |
-| receivers | Receiver location file |
+| Model.Nx | The total number of grid in x direction |
+| Model.Nz | The total number of grid in z direction |
+| Model.Npx | The total number of PML in x direction |
+| Model.Npz | The total number of PML in x direction |
+| Model.source_ii | Source location in x direction |
+| Model.source_jj | Source location in y direction |
+| Model.source_type | Source Type |
 
 ## Source Code Structure
 
-The main source files are located in the folder `Src_Read`.
+The main file is `**Main_finite_element_PSVTM.m**`.
 
 - **vel_model_load.cpp**  
   Loads the 3-D velocity model.
