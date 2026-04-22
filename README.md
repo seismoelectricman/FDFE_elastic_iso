@@ -2,11 +2,11 @@
 
 ## Introduction
 
-**FDFE_elastic_iso** is a software package for computing the seismic attenuation operator t* using a **modified fast marching method (MFMM)**.
+**FDFE_elastic_iso** is a software package for computing the propagation of elastic wave in isotropic media using a **variational principles based frequency domain finite-element method (FDFE)**.
 
-Traditional approaches for calculating t* require explicit ray tracing followed by integration along ray paths. In contrast, **MFMM_tstar** accumulates the attenuation operator directly during the evolution of the wavefront within the fast marching framework. This approach avoids explicit ray tracing and ensures consistent accumulation of attenuation along minimum traveltime paths.
+Traditional finite element approaches for simulating the propagation of elastic wave require the weak formulation. In contrast, **FDFE_elastic_iso** models the propagation of the elastic wave in isotropic media in the framework of variational principles. This approach avoids explicit ray tracing and ensures consistent accumulation of attenuation along minimum traveltime paths.
 
-This software is designed for studies of **seismic attenuation and wave propagation in heterogeneous absorbing media**.
+This software is designed for studies of **seismic wave simulation and propagation in heterogeneous isotropic media**.
 
 ---
 
@@ -14,7 +14,7 @@ This software is designed for studies of **seismic attenuation and wave propagat
 
 If you use this software in your research, please cite:
 
-Dongdong Wang and Jia Gou. *Accumulation of the attenuation operator t* along wavefront evolution in heterogeneous absorbing media using a modified fast marching method.*  Computers & Geosciences.
+Dongdong Wang and Haopeng Chen. *A variational finite-element method for frequency-domain simulation of seismic wave propagation in 2D elastic media.*  Computers & Geosciences.
 
 ---
 
