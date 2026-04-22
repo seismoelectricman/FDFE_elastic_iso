@@ -50,17 +50,17 @@ Before running the program, the following parameters within 'sub_00_model_***' n
 The main file is `**Main_finite_element_PSVTM.m**`.
 
 - **Main_finite_element_PSVTM.m**  
-  Loads the 3-D velocity model.
+  This is the main code.
 
 - **sub_0_finite_element_construct_global_matrix_method.m**  
-  Loads the 3-D velocity model.
+  Assemble and solve the linear system of equations.
 
 - **get_3_frequency_dependence_input_parameter.m**  
-  Loads the 3-D attenuation model (quality factor Q).
+  Calculation of the elastic parameters according to the velocity and density.
 
 - **sub_3_2_fullspace_matrix_PSV.m**  
-  Reads source information such as earthquake locations.
+  Considering a fullspace model, and construct the cooeficent matrix in this model.
 
 - **sub_3_2_freesurface_matrix_PSV.m**  
-  Reads receiver information such as station locations.
+  Considering a half-space model, and construct the cooeficent matrix in this model.
 
