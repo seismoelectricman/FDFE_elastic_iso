@@ -49,7 +49,7 @@ Before running the program, the following parameters within 'sub_00_model_***' n
 
 The main file is `**Main_finite_element_PSVTM.m**`.
 
-- **vel_model_load.cpp**  
+- **sub_0_finite_element_construct_global_matrix_method**  
   Loads the 3-D velocity model.
 
 - **att_model_load.cpp**  
