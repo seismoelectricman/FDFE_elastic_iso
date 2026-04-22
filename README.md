@@ -29,9 +29,7 @@ Dongdong Wang and Haopeng Chen. *A variational finite-element method for frequen
 
 ## Compilation
 
-Compile the code using **SCons**: 
-
-scons (bash)
+No need to compilation
 
 ## Input Files
 
