@@ -20,13 +20,10 @@ Dongdong Wang and Haopeng Chen. *A variational finite-element method for frequen
 
 ## Requirements
 
-| Requirement | Version |
-|-------------|--------|
-| Matlab | ≥ 3 |
-| SCons | Latest |
-| g++ | ≥ 5 |
-| OpenMP | Supported |
-| C++ standard | C++11 |
+| Requirement                | Version |
+|---------------------------|---------|
+| MATLAB                    | R2018a or later |
+| Parallel Computing Toolbox | Required |
 
 ---
 
