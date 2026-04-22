@@ -29,11 +29,11 @@ Dongdong Wang and Haopeng Chen. *A variational finite-element method for frequen
 
 ## Compilation
 
-No need to compilation
+No need to compile.
 
 ## Input Files
 
-Before running the program, the following input files must be prepared:
+Before running the program, the following parameters need be adjusted:
 
 | File | Description |
 |-------------|--------|
